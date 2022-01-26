@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to Employee Wage Computation");
+﻿using EmployeeWage;
+class program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Welcome To Employee Wage Problems....");
+        EmployeWageComputation employee = new EmployeWageComputation();
+        employee.Attendence();
+        Console.ReadLine();
+    }
+}
+    
+
