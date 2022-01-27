@@ -7,7 +7,8 @@ class program
         EmployeWageComputation employee = new EmployeWageComputation();
         // employee.Attendence();
         //employee.DailyWage();
-        employee.PartTime();
+        // employee.PartTime();
+        employee.SwitchCase();
         Console.ReadLine();
     }
 }
