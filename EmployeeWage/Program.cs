@@ -6,7 +6,8 @@ class program
         Console.WriteLine("Welcome To Employee Wage Problems....");
         EmployeWageComputation employee = new EmployeWageComputation();
         // employee.Attendence();
-        employee.DailyWage();
+        //employee.DailyWage();
+        employee.PartTime();
         Console.ReadLine();
     }
 }
