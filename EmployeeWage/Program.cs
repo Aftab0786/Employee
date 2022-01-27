@@ -8,7 +8,8 @@ class program
         // employee.Attendence();
         //employee.DailyWage();
         // employee.PartTime();
-        employee.SwitchCase();
+        //employee.SwitchCase();
+        employee.MonthlyWage();
         Console.ReadLine();
     }
 }
