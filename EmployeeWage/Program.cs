@@ -10,8 +10,11 @@ class program
         // employee.PartTime();
         //employee.SwitchCase();
         //employee.MonthlyWage();
-        EmployeWageComputation.ComputeEmployeWageComputation();
-        
+        EmployeWageComputation.ComputeEmployeWageComputation("Prinston", 20,20,100);
+        EmployeWageComputation.ComputeEmployeWageComputation("Flipkart", 40,15,200);
+        EmployeWageComputation.ComputeEmployeWageComputation("Amazon", 30,20,100);
+
+
 
 
     }
