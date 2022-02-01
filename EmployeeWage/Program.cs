@@ -9,8 +9,11 @@ class program
         //employee.DailyWage();
         // employee.PartTime();
         //employee.SwitchCase();
-        employee.MonthlyWage();
-        Console.ReadLine();
+        //employee.MonthlyWage();
+        EmployeWageComputation.ComputeEmployeWageComputation();
+        
+
+
     }
 }
     
